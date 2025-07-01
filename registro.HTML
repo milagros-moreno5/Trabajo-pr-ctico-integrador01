@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <link rel="stylesheet" href="registro.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  
+  <link rel="icon" type="Tp integrador/img/mue-logo-removebg-preview.png" href="img/logo-favicon.jpg">
+</head>
+<body>
+   <header>
+        <a href="index.html"><img src="img/mue-logo-removebg-preview.png" alt="Logo Foco Perfecto" class="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="REGISTRO.HTML">Registro</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="encuesta.html">Encuestas</a></li>
+                 <li><a href="nosotros.html">Sobre nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+  <main>
+    <div class="form-container">
+    <form>
+      <h1>Registro</h1>
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="edad">Edad</label>
+        <input type="text" id="edad" name="edad" required>
+      </div>
+      <div class="form-group">
+        <label for="pais">País</label>
+        <select id="pais" name="pais" required>
+          <option value="">Seleccione un país</option>
+          <option value="argentina">Argentina</option>
+          <option value="chile">Chile</option>
+          <option value="colombia">Colombia</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña" name="contraseña" required>
+      </div>
+      <div class="form-group">
+        <label for="confirmar_contraseña">Confirmar Contraseña</label>
+        <input type="password" id="confirmar_contraseña" name="confirmar_contraseña" required>
+      </div>
+
+        <div class="forgot-password">
+  <a href="#">Olvidé la contraseña</a>
+</div>
+      <button type="submit">Registrarse</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <img src="img/mue-logo-removebg-preview.png" alt="Logo Foco Perfecto">
+      <p>&copy; 2025 Foco Perfecto - Todos los derechos reservados</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Enlaces</h3>
+      
+            <ul>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="registro.HTML">Registro</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="encuesta.html">Encuestas</a></li>
+                <li><a href="nosotros.html">Sobre nosotros</a></li>
+            </ul>
+       </div>
+        <div class="footer-contacto">
+      <h3>Contacto</h3>
+      <p>Email: contacto@focoperfecto.com</p>
+      <p>Teléfono: +54 9 11 1234 5678</p>
+    </div>
+
+    <div class="footer-redes">
+      <h3>Seguinos</h3>
+      <a href="#" target="_blank"><a href="#"><ion-icon name="logo-instagram" class="icono-red"></ion-icon></a>
+    <a href="#"><ion-icon name="logo-facebook" class="icono-red"></ion-icon></a>
+    <a href="#"><ion-icon name="logo-twitter" class="icono-red"></ion-icon></a>
+    <a href="#"><ion-icon name="logo-tiktok" class="icono-red"></ion-icon></a>
+
+</body>
+</html>
+  
